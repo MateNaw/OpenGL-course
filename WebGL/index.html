@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>WebGL</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="runWebGL()">
+<form>
+    <input type="checkbox" id="rotateX"> rotacja X
+    <input type="checkbox" id="rotateY"> rotacja Y
+    <input type="checkbox" id="rotateZ"> rotacja Z
+</form>
+<p>
+    <img src="cubeTexture.png" crossorigin="null" style="width: 100px;height: 100px"/>
+    <img src="cubeTexture2.png" crossorigin="null" style="width: 100px;height: 100px"/>
+    <img src="cubeTexture3.png" crossorigin="null" style="width: 100px;height: 100px"/>
+</p>
+
+<form>
+    <input type="checkbox" id="tekstura1"> tekstura 1
+    <input type="checkbox" id="tekstura2"> tekstura 2
+    <input type="checkbox" id="tekstura3"> tekstura 3
+</form>
+
+
+<canvas id="glcanvas" width="500" height="300">
+    Brak wsparcia dla elementu HTML5 typu canvas
+</canvas>
+<p> <br/> <button onclick="runWebGL()">Start</button> </p>
+<script src="js/main.js"></script>
+<script src="js/matrix.js"></script>
+</body>
+</html
+
+
